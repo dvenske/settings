@@ -6,6 +6,7 @@
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="locale_updates" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
+      <mapping ext="go" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
