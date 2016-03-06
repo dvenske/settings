@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ac56f57b-2d6b-40f4-9398-c504c75b90e2" name="home" url="http://home.venske.net">
+        <fileTransfer host="home.venske.net" port="2112" rootFolder="/home/dvenske" accessType="SFTP" password="df80df80dffedfdfdfd8dfdedfc6dfef" username="dvenske">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
