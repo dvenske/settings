@@ -6,13 +6,15 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="2112" />
         </fileTransfer>
       </webServer>
       <webServer id="27b8140f-7d5c-496e-b6bb-9a6f63642fb2" name="dev00" url="http://dev00">
         <fileTransfer host="dev00" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/dvenske" accessType="SFTP" username="dvenske" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
