@@ -17,6 +17,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="80a82eb3-490f-4936-938e-000f70a6fe6c" name="dev" url="http://dev">
+        <fileTransfer host="dev" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/usr/local/home/dvenske" accessType="SFTP" username="dvenske" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
