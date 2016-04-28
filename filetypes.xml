@@ -1,11 +1,12 @@
 <application>
-  <component name="FileTypeManager" version="16">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Dockerfile-http2" type="Dockerfile" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="locale_updates" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
+      <mapping ext="py" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
