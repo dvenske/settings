@@ -25,6 +25,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="367d0089-5916-4b97-936e-5709a6e57571" name="gate1" url="http://gateway00-den.returnpath.net">
+        <fileTransfer host="gateway00-den.returnpath.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/na/home/dvenske" accessType="SFTP" username="dvenske" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
