@@ -1,6 +1,6 @@
 <application>
   <component name="DockerRegistry">
-    <DockerRegistry email="deane@venske.net" password="**TurtlE25">
+    <DockerRegistry email="deane@venske.net" password="**TurtlE">
       <option name="address" value="registry.gitlab.com" />
       <option name="name" value="Docker Registry" />
       <option name="username" value="deane" />
