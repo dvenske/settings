@@ -36,4 +36,7 @@
     <keyboard-shortcut first-keystroke="f11" />
   </action>
   <action id="Vcs.UpdateProject" />
+  <action id="ZoomCurrentWindow">
+    <mouse-shortcut keystroke="control button143" />
+  </action>
 </keymap>
