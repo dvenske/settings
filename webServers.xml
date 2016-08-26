@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="ac56f57b-2d6b-40f4-9398-c504c75b90e2" name="home" url="http://home.venske.net">
-        <fileTransfer host="home.venske.net" port="2112" rootFolder="/home/dvenske" accessType="SFTP" password="df80df80dffedfdfdfd8dfdedfc6dfef" username="dvenske">
+        <fileTransfer host="home.venske.net" port="2112" rootFolder="/home/dvenske" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -10,7 +10,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="27b8140f-7d5c-496e-b6bb-9a6f63642fb2" name="dev00" url="http://dev00">
-        <fileTransfer host="dev00" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/dvenske" accessType="SFTP" username="dvenske" keyPair="true">
+        <fileTransfer host="dev00" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/dvenske" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" />
           </advancedOptions>
@@ -18,7 +18,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="80a82eb3-490f-4936-938e-000f70a6fe6c" name="dev" url="http://dev">
-        <fileTransfer host="dev" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/usr/local/home/dvenske" accessType="SFTP" username="dvenske" keyPair="true">
+        <fileTransfer host="dev" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/usr/local/home/dvenske" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -26,7 +26,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="367d0089-5916-4b97-936e-5709a6e57571" name="gate1" url="http://gateway00-den.returnpath.net">
-        <fileTransfer host="gateway00-den.returnpath.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/na/home/dvenske" accessType="SFTP" username="dvenske" keyPair="true">
+        <fileTransfer host="gateway00-den.returnpath.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/na/home/dvenske" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -34,5 +34,8 @@
         </fileTransfer>
       </webServer>
     </option>
+  </component>
+  <component name="webServersAuthStorage">
+    <data>AAABUBMZ07MdptWcxDEtUQZYHIuh4V2RgTPG4uJ7TvTqWS3Y9+aG4bPCSHgarVZ1ZOOd6AQWedkp8RKOWjUAfLdjyDVvZC65rzhobN0h3Qbw89rFYxiKbHbI+GQENz3ISKfwenrDLvVmKboBjllFHHlA5uBVFtzRwLTtL/wlg55ajZ7lHutW7H/spXeMPtK/nKcsUzGow7XZw8g5TbV66uL5j7/5RbH/E0BsqNJCFfydCfEWluQ0W7LxTQmZGB8PCNfB8RQeu+XyDrKXkWzWX1iAYlYts3bQVgVXRUXrfo/FlVtVnlBI/mYJ5+JxK/y+jk47GyelIJ57PeHGOo/3ab4sqcEAOIrWZtHKxF8+3rscq2sL+SxieAmwnDHpZkBOkvhSf6d168sznZNyde7E1oOBf7G54ZADFb78lnAf8Mdo/MIxb9ol3U5crOAWHntPCpwGRjY798vPqdWhheB1Anlb+f4=</data>
   </component>
 </application>
