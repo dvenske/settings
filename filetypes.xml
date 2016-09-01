@@ -4,6 +4,7 @@
       <mapping pattern="Dockerfile-http2" type="Dockerfile" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="crontab" type="PLAIN_TEXT" />
+      <mapping pattern="_private" type="PLAIN_TEXT" />
       <mapping pattern="styles" type="PLAIN_TEXT" />
       <mapping pattern="GeoLite2" type="PLAIN_TEXT" />
       <mapping pattern="locale_updates" type="PLAIN_TEXT" />
