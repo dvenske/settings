@@ -11,6 +11,7 @@
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="har" type="PLAIN_TEXT" />
       <mapping ext="mmdb" type="PLAIN_TEXT" />
+      <mapping ext="quick" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
