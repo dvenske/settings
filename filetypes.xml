@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Dockerfile-http2" type="Dockerfile" />
+      <mapping pattern="nurses" type="JSON" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="crontab" type="PLAIN_TEXT" />
       <mapping pattern="_private" type="PLAIN_TEXT" />
